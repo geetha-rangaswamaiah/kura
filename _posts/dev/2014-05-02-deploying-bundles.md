@@ -66,7 +66,7 @@ project. Expand it to show the src/main/resources folder.
 
 Right-click the correct **Kura_Emulator_*[OS]*.launch** file,
 depending on which operating system you are running (where “*[OS]*” is
-“Linux” for a Linux system or “OSX” for a OS X system). In the context
+“Linux” for a Linux system or “OSX” for an OS X system). In the context
 menu, select the **Run as** option, and select the
 **Kura_Emulator_*[OS]***. This will start Kura running locally and
 will display a Console window in the bottom pane in Eclipse. The Console

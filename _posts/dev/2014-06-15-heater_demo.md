@@ -71,7 +71,7 @@ The following sections will highlight three important API layers when creating a
 
 ## Acquiring CloudClient
 
-The CloudService can manage multiple applications over a shared MQTT connection by treating each application as a client. The example code uses the "setCloudService" and "unsetCloudService" methods for referencing and releasing the CloudService. In the bundles activate method, the service reference in conjunction with a unique application ID can then be used to obtain a CloudClient. The relevant code is shown below (ommitted sections are denoted by ==OMMITTED==):
+The CloudService can manage multiple applications over a shared MQTT connection by treating each application as a client. The example code uses the "setCloudService" and "unsetCloudService" methods for referencing and releasing the CloudService. In the bundles activate method, the service reference in conjunction with a unique application ID can then be used to obtain a CloudClient. The relevant code is shown below (omitted sections are denoted by ==OMMITTED==):
 
 ```java
 ==OMMITTED==
@@ -159,7 +159,7 @@ The available methods for implementation are:
 * onConnectionLost: Method called when the client has lost connection with the broker.
 * onConnectionEstablished: Method called when the client establishes a connection with the broker.
 * onMessageConfirmed: Method called when a published message has been fully acknowledged by the broker (not applicable for qos 0 messages).
-* onMessagePublished: Method called when a message has been transfered from the publishing queue to the DataTransportService.
+* onMessagePublished: Method called when a message has been transferred from the publishing queue to the DataTransportService.
 
 For more information on the various Kura APIs, please review the [Kura APIs]({{site.baseurl }}/ref/api-ref.html)
 
@@ -271,7 +271,7 @@ operational environment:
 
 ![]({{ site.baseurl }}/assets/images/heater_demo///media/image6.png)
 
-Click **Apply** for changes to take affect. The updated() method is
+Click **Apply** for changes to take effect. The updated() method is
 called after settings are applied for the new configuration.
 
 After completing this tutorial, it is highly recommended that you review
